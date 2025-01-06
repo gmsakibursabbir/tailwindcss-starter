@@ -31,11 +31,11 @@ Clone this repository to your local machine:
 git clone https://github.com/your-username/my-tailwind-project.git
 cd my-tailwind-project
 ```
-##Install the required dependencies:
+### Install the required dependencies:
 ```bash
 npm install
 ```
-##Folder Structure
+## Folder Structure
 Here’s the structure of the project:
 ```bash
 my-tailwind-project/
@@ -53,9 +53,9 @@ my-tailwind-project/
 ├── package.json
 └── README.md            # Project documentation
 ```
-##Configuration
-###Tailwind CSS
-The ``tailwind.config.js`` file is used to customize Tailwind CSS. By default, it includes:
+## Configuration
+### Tailwind CSS
+The `tailwind.config.js` file is used to customize Tailwind CSS. By default, it includes:
 ```bash
 module.exports = {
   content: [
@@ -67,8 +67,8 @@ module.exports = {
   plugins: [],
 }
 ```
-###PostCSS
-The ``postcss.config.js`` file processes Tailwind CSS and autoprefixer:
+### PostCSS
+The `postcss.config.js` file processes Tailwind CSS and autoprefixer:
 ```bash
 module.exports = {
   plugins: {
@@ -77,3 +77,18 @@ module.exports = {
   },
 }
 ```
+## Running the Project
+### Development Mode
+Start the development server with hot-reloading:
+```bash
+npm run dev
+```
+Visit http://localhost:3000 to view your project.
+
+### Production Build
+Build the project for production:
+
+```bash
+npm run build
+```
+The output will be in the dist folder.
